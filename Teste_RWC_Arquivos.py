@@ -1,3 +1,4 @@
+teste = open('testeTxt.html', 'w')
 teste2 = open('testeExcel.xls','w')
 teste3 = open('testeWord.docx','w')
 teste4 = open('testeCSV.csv','w')
@@ -6,7 +7,7 @@ teste5 = open('testePython.py','w')
 docx = input()
 csv = input()
 
-teste = open('testeTxt.html', 'w')
+
 teste.write(docx)
 teste.close()
 
