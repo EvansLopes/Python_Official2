@@ -1,22 +1,16 @@
-teste = open('testeTxt.html', 'w')
-teste2 = open('testeExcel.xls','w')
-teste3 = open('testeWord.docx','w')
-teste4 = open('testeCSV.csv','w')
-teste5 = open('testePython.py','w')
+teste = open('testeTxt.pdf', 'w')
+teste2 = open('testeExcel.pdf','w')
+teste3 = open('testeWord.pdf','w')
+teste4 = open('testeCSV.pdf','w')
+teste5 = open('testePython.pdf','w')
 
-docx = input()
-csv = input()
-
-
-teste.write(docx)
-teste.close()
-
-teste2.write(csv)
+teste.write(input())
+teste2.write(input())
 teste3.write(input())
 teste4.write(input())
 teste5.write(input())
 
-
+teste.close()
 teste2.close()
 teste3.close()
 teste4.close()
