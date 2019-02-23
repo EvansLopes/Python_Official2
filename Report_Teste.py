@@ -1,4 +1,3 @@
-import reportlab
 from reportlab.pdfgen import canvas
 
 texto1 = input()
