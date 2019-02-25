@@ -3,9 +3,9 @@ from reportlab.pdfgen import canvas
 headerText = input()
 subHeaderText = input()
 def main(args):
-    cnv = canvas.Canvas('Alo_Mundo.pdf')
+    cnv = canvas.Canvas('Relatório de texto')
     cnv.drawString(1,500,headerText)
-    cnv.drawString(20,12,subHeaderText)
+    cnv.drawString(1,12,subHeaderText)
 
     cnv.save()
     return 0
