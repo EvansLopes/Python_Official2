@@ -1,11 +1,12 @@
 from reportlab.pdfgen import canvas
 
-headerText = input()
-subHeaderText = input()
+headerText = input().center(164)
+subHeaderText = input().center(164)
+
 def main(args):
-    cnv = canvas.Canvas('Relatório de texto')
-    cnv.drawString(1,500,headerText)
-    cnv.drawString(1,12,subHeaderText)
+    cnv = canvas.Canvas('Relatorio de texto.pdf')
+    cnv.drawString(1,820,'Título: ' + headerText)
+    cnv.drawString(1,818,'Nome: ' + subHeaderText)
 
     cnv.save()
     return 0
