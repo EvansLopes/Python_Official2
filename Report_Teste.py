@@ -5,7 +5,7 @@ subHeaderText = input().center(164)
 
 def main(args):
     cnv = canvas.Canvas('Relatorio de texto.pdf')
-    cnv.drawString(1,820,'Título: ' + headerText)
+    cnv.drawString(1,410,'Título: ' + headerText)
     cnv.drawString(1,818,'Nome: ' + subHeaderText)
 
     cnv.save()
@@ -13,4 +13,3 @@ def main(args):
 if __name__ == '__main__':
     import sys
     sys.exit(main(sys.argv))
-
